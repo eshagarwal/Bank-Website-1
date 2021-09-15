@@ -1,0 +1,25 @@
+@charset "ISO-8859-1";
+body
+ {
+   background-color: #D7E9F7;
+ }
+
+h1 {
+  color: #000000 ;
+}
+h2 {
+  color: #000000 ;
+}
+h5 {
+  color: #000000 ;
+
+
+}
+   hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: grey;
+    border-width: 2px;
+
+
+  }

@@ -1,0 +1,93 @@
+@charset "ISO-8859-1";
+* {
+	margin: 0;
+	padding: 0;
+}
+body 
+{
+	font-family: 'Poppins', sans-serif;
+}
+.wrapper {
+	width: 1170px;
+	margin: auto;
+}
+header 
+{
+	background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQezOmcoTaOxMxMmlsXCjbHppNfe4NZyEbGiA&usqp=CAU);
+	height: 100vh;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+	position: relative;
+}
+
+
+.logo 
+{
+	float: left;
+}
+.logo img 
+{
+	width: 100%;
+	padding: 15px 0;
+}
+.welcome-text 
+{
+	position: absolute;
+	width: 600px;
+	height: 300px;
+	margin: 20% 30%;
+	text-align: center;
+}
+.welcome-text h1 
+{
+	text-align: center;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 60px;
+}
+.welcome-text h1 span {
+	color: #00fecb;
+}
+
+.welcome-text a {
+	border: 1px solid #fff;
+	padding: 10px 25px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14px;
+	margin-top: 20px;
+	display: inline-block;
+	color: #fff;
+}
+.welcome-text a:hover {
+	background: #fff;
+	color: #333;
+}
+/*resposive*/
+
+@media (max-width:600px) {
+	.wrapper {
+		width: 100%;
+	}
+	.logo {
+		float: none;
+		width: 50%;
+		text-align: center;
+		margin: auto;
+	}
+	.logo img 
+	{
+	width: 100%;
+	padding: 15px 0;
+	}
+	
+	.welcome-text {
+		width: 100%;
+		height: auto;
+		margin: 30% 0;
+	}
+	.welcome-text h1 {
+		font-size: 30px;
+	}
+}

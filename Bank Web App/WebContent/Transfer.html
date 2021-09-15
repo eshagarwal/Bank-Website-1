@@ -1,0 +1,41 @@
+<!DOCTYPE html>    
+<html>    
+<head>    
+    <title>Transfer Form</title>    
+    <link rel="stylesheet" type="text/css" href="TransferStyle.css">   
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/128/61/61584.png"> 
+</head>    
+<body>    
+    <h2>Transfer Page</h2><br>    
+    <div class="login">    
+    <form id="login" method="post" action="TransferServlet">  
+        <label><b>Recipient Name     
+        </b>    
+        </label>    
+        <input type="text" name="name" id="name" placeholder="Recipient">    
+        <br><br>      
+        <label><b>Account No. of Recipient     
+        </b>    
+        </label>    
+        <input type="number" name="AccNo" id="AccNo" placeholder="Account Number">    
+        <br><br>    
+        <label><b>Enter Amount    
+        </b>    
+        </label>    
+        <input type="number" name="Amt" id="Amt" placeholder="Enter Amount">    
+        <br><br>
+        <label><b>Account No. of Reciever    
+        </b>    
+        </label>    
+        <input type="number" name="RAccNo" id="RAccNo" placeholder="Account Number">    
+        <br><br>               
+        <input type="submit" value="Transfer">       
+        <br><br>    
+        <input type="checkbox" id="check">    
+        <span>Confirm your details</span>    
+        <br><br>    
+         <a href="LoginForm.html">Log Out</a>
+    </form>     
+</div>    
+</body>    
+</html>
